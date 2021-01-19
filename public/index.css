@@ -1,0 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body {
+  display:'flex';
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  height: 100%;
+  padding-top:30px;
+}
+.container {
+  height: 100%;
+}

@@ -14,30 +14,30 @@ export default function Navbar() {
       <div>
         <nav>
           <div>
-            <div className='ui inverted top fixed five item menu'>
+            <div className='ui inverted left fixed vertical menu'>
               <div className="item">
                 <Link to='/'>
-                  <i className="home icon" />
+                  <i className="orange home icon" />
                 </Link>
               </div>
               <div className="item">
                 <Link to='/about'>
-                  <i className="user icon" />
+                  <i className="orange user icon" />
                 </Link>
               </div>
               <div className="item">
                 <Link to='/skills'>
-                  <i className="chart bar icon" />
+                  <i className="orange chart bar icon" />
                 </Link>
               </div>
               <div className="item">
                 <Link to='/work'>
-                  <i className="folder icon" />
+                  <i className="orange folder icon" />
                 </Link>
               </div>
               <div className="item">
                 <Link to='/message'>
-                  <i className="envelope icon" />
+                  <i className="orange envelope icon" />
                 </Link>
               </div>
             </div>
