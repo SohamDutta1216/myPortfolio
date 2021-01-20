@@ -10,7 +10,7 @@ export default function Skill(props) {
         }}
         how={60}
         time={40}
-        size={'50px'}
+        size={'80px'}
         background={'#282828'}
       />
     </div >

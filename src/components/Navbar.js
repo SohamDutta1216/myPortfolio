@@ -8,8 +8,10 @@ import {
 import LandingPage from './LandingPage';
 import About from './About'
 import Skills from './Skills'
+import Work from './Work'
 
 export default function Navbar() {
+
   return (
     <Router>
       <div>
@@ -48,6 +50,7 @@ export default function Navbar() {
           <Route path='/' component={LandingPage} exact={true} />
           <Route path='/about' component={About} />
           <Route path='/skills' component={Skills} />
+          <Route path='/work' component={Work} />
         </Switch>
       </div>
     </Router>

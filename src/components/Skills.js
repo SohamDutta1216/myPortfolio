@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import Skill from './Skill';
-import './Skills.css'
+import './Styles.css'
 
 function CreateState() {
   const [imagePath, setImage] = useState('./logoJS.png')

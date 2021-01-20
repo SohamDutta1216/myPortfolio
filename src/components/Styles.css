@@ -21,6 +21,11 @@
    width:200px;
 }
 
+.tag {
+  font-family: monospace;
+  font-style: italic;
+  color: grey;
+}
 .regText{
   font-size:20px;
   font-style: bold;
