@@ -1,0 +1,28 @@
+.tags{
+  font-family: monospace;
+   font-style: italic;
+    color: grey
+}
+
+.listTag1{
+  font-family: monospace;
+  font-style: italic;
+   color: grey;
+   float: left;
+   width:100px;
+}
+
+.listTag2{
+  font-family: monospace;
+  font-style: italic;
+   color: grey;
+   float: left;
+   margin-left:30px;
+   width:200px;
+}
+
+.regText{
+  font-size:20px;
+  font-style: bold;
+  color:white
+}

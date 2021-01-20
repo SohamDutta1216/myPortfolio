@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import LandingPage from './LandingPage';
 import About from './About'
+import Skills from './Skills'
 
 export default function Navbar() {
   return (
@@ -46,6 +47,7 @@ export default function Navbar() {
         <Switch>
           <Route path='/' component={LandingPage} exact={true} />
           <Route path='/about' component={About} />
+          <Route path='/skills' component={Skills} />
         </Switch>
       </div>
     </Router>
