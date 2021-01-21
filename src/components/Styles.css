@@ -26,8 +26,21 @@
   font-style: italic;
   color: grey;
 }
+
 .regText{
-  font-size:20px;
+  font-size:30px;
   font-style: bold;
   color:white
+}
+
+.linkText{
+  color:orange;
+  font-size: 20px;
+
+}
+
+.typeText{
+  font-size:45px;
+  font-style: bold;
+  color:orange;
 }
