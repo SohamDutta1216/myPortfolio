@@ -27,7 +27,7 @@ export default function Skills() {
               <p>&lt; h1 &gt;</p>
             </div>
 
-            <div style={{ fontSize: '45px', fontStyle: 'bold', color: 'orange' }}>
+            <div className='typeText'>
               <br />
               <MovingComponent type="typewriter"
                 dataText={[

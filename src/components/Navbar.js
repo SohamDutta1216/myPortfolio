@@ -9,6 +9,7 @@ import LandingPage from './LandingPage';
 import About from './About'
 import Skills from './Skills'
 import Work from './Work'
+import ContactForm from './ContactForm'
 
 export default function Navbar() {
 
@@ -39,7 +40,7 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="item">
-                <Link to='/message'>
+                <Link to='/contact'>
                   <i className="orange envelope icon" />
                 </Link>
               </div>
@@ -51,6 +52,7 @@ export default function Navbar() {
           <Route path='/about' component={About} />
           <Route path='/skills' component={Skills} />
           <Route path='/work' component={Work} />
+          <Route path='/contact' component={ContactForm} />
         </Switch>
       </div>
     </Router>

@@ -84,7 +84,7 @@ export default function Work() {
             </div>
 
             <div className='ui grey inverted segment'>
-              <h3 className='regText'>The Shoppies Code Challenge</h3>
+              <h3 className='regText'>Shopify Code Challenge</h3>
               <p>- A webpage that can search OMDB for movies, and allow the user to save their favourite films they feel should be up for nomination. When they've selected 5 nominees they should be notified they're finished. This project was created for the Shopify apprenticeship program.</p>
               <div className='linkText'>
                 <div className="ui large buttons">
