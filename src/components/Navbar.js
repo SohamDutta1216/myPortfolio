@@ -87,7 +87,7 @@ export default function Navbar() {
                 </div>
               </div>
               :
-              <div style={{ paddingRight: '100px' }}>
+              <div style={{ paddingLeft: '500px' }}>
                 <div className='ui thin visible left vertical inverted sidebar labeled icon menu'>
                   <div className='ui clearing inverted segment' />
 
