@@ -1,7 +1,8 @@
 .tags{
   font-family: monospace;
    font-style: italic;
-    color: grey
+    color: grey;
+    font-size:18px
 }
 
 .listTag1{
@@ -10,6 +11,7 @@
    color: grey;
    float: left;
    width:100px;
+   font-size:18px
 }
 
 .listTag2{
@@ -19,16 +21,18 @@
    float: left;
    margin-left:30px;
    width:200px;
+   font-size:18px
 }
 
 .tag {
   font-family: monospace;
   font-style: italic;
   color: grey;
+  font-size:18px
 }
 
 .regText{
-  font-size:30px;
+  font-size:20px;
   font-style: bold;
   color:white
 }
@@ -36,7 +40,6 @@
 .linkText{
   color:orange;
   font-size: 20px;
-
 }
 
 .typeText{

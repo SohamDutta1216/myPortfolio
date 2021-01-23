@@ -13,6 +13,7 @@ export default function Work() {
               <p>&lt; div &gt;</p>
               <br />
               <p>&lt; h1 &gt;</p>
+              <br />
             </div>
 
             <div className='typeText'>
@@ -21,6 +22,7 @@ export default function Work() {
                 dataText={[
                   'My Work'
                 ]} />
+              <br />
             </div>
 
             <div className='tag'>

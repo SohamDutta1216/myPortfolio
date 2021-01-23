@@ -4,10 +4,6 @@ import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import emailjs from 'emailjs-com';
 
-const serviceKey = process.env.SERVICE_KEY
-const templateKey = process.env.TEMPLATE_KEY
-const userID = process.env.USER_ID
-
 function CreateState() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -52,7 +48,7 @@ export default function ContactForm() {
       subject: subject,
       message: message
     }
-    emailjs.send(`${serviceKey}`, `${templateKey}`, templateParams, `${userID}`)
+    emailjs.send('service_soham', 'template_soham', templateParams, 'user_HC18YiCW28WYlD9ry87FB')
     resetForm()
   }
   console.log(name)
@@ -66,6 +62,7 @@ export default function ContactForm() {
               <p>&lt; div &gt;</p>
               <br />
               <p>&lt; h1 &gt;</p>
+              <br />
             </div>
 
             <div className='typeText'>
@@ -74,6 +71,7 @@ export default function ContactForm() {
                 dataText={[
                   'Contact Me'
                 ]} />
+              <br />
             </div>
 
             <div className='tags'>
@@ -94,16 +92,16 @@ export default function ContactForm() {
                   </div>
                   <div className='divider' />
                   <div className='field'>
-                    <input type='email' placeholder='email' value={email} value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                    <input type='email' placeholder='email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
                   </div>
                 </div>
                 <div className='divider' />
                 <div className='field'>
-                  <input type='text' placeholder='subject' value={subject} value={subject} onChange={(e) => { setSubject(e.target.value) }} />
+                  <input type='text' placeholder='subject' value={subject} onChange={(e) => { setSubject(e.target.value) }} />
                 </div>
                 <div>
                   <div className='field'>
-                    <textarea placeholder='message' rows='10' value={message} value={message} onChange={(e) => { setMessage(e.target.value) }} ></textarea>
+                    <textarea placeholder='message' rows='10' value={message} onChange={(e) => { setMessage(e.target.value) }} ></textarea>
                   </div>
                 </div>
                 <br />
@@ -132,6 +130,8 @@ export default function ContactForm() {
             <div className='tags'>
               <br />
               <p>&lt; div &gt;</p>
+              <br />
+              <br />
             </div>
           </div>
         </Fade>

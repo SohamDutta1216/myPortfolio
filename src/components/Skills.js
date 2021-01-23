@@ -25,6 +25,7 @@ export default function Skills() {
               <p>&lt; div &gt;</p>
               <br />
               <p>&lt; h1 &gt;</p>
+              <br />
             </div>
 
             <div className='typeText'>
@@ -33,6 +34,7 @@ export default function Skills() {
                 dataText={[
                   'Technical Skills'
                 ]} />
+              <br />
             </div>
 
             <div className='tags'>

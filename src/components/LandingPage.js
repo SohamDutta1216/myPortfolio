@@ -1,18 +1,19 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
+import './Styles.css'
 
 export default function LandingPage() {
   return (
     <div className="ui container">
       <Fade left>
         <div>
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
             <p>&lt; div &gt;</p>
             <br />
           </div>
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
             <p>&lt; img src=/images/me.jpeg &gt;</p>
             <br />
           </div>
@@ -34,19 +35,21 @@ export default function LandingPage() {
 
 
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
             <br />
             <p>&lt; /img &gt;</p>
             <br />
           </div>
 
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
+            <br />
             <p>&lt; h1 &gt;</p>
             <br />
           </div>
 
-          <div style={{ fontSize: '45px', color: 'orange', fontStyle: 'monospace' }}>
+          <div className='typeText'>
+            <br />
             <MovingComponent type="typewriter"
               dataText={[
                 'Hello World',
@@ -55,13 +58,14 @@ export default function LandingPage() {
             <br />
           </div>
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
             <br />
             <p>&lt; /h1 &gt;</p>
             <br />
           </div>
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
+            <br />
             <p>&lt; h2 &gt;</p>
             <br />
           </div>
@@ -69,20 +73,23 @@ export default function LandingPage() {
             <p>full stack software developer with a passion for front end development.</p>
           </div>
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
             <br />
             <p>&lt; /h2 &gt;</p>
             <br />
           </div>
 
-          <div style={{ fontFamily: 'monospace', fontStyle: 'italic', color: 'grey' }}>
+          <div className='tags'>
 
 
             <p>&lt; div &gt;</p>
+            <br />
+            <br />
           </div>
         </div>
       </Fade>
     </div>
+
 
   )
 }
