@@ -53,7 +53,8 @@ export default function LandingPage() {
             <MovingComponent type="typewriter"
               dataText={[
                 'Hello World',
-                'My name is Soham Dutta'
+                'My name is',
+                'Soham Dutta'
               ]} />
             <br />
           </div>
