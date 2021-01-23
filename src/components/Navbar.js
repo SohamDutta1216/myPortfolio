@@ -22,7 +22,7 @@ export default function Navbar() {
         <nav>
           <div>
 
-            <div className='ui thin visible left vertical inverted sidebar labeled icon menu' >
+            <div className='ui mini visible left vertical inverted sidebar labeled icon menu' >
               <div className='ui clearing inverted segment' />
 
               <div className="item">

@@ -31,10 +31,6 @@ export default function LandingPage() {
             </div>
           </MovingComponent>
 
-
-
-
-
           <div className='tags'>
             <br />
             <p>&lt; /img &gt;</p>
