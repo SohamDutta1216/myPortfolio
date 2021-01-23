@@ -87,7 +87,7 @@ export default function Navbar() {
                 </div>
               </div>
               :
-              <div className='ui thin visible left vertical inverted sidebar labeled icon menu' style={{ marginRight: '100px' }} >
+              <div className='ui thin visible left vertical inverted sidebar labeled icon menu' >
                 <div className='ui clearing inverted segment' />
 
                 <div className="item">
