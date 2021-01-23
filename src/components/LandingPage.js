@@ -70,7 +70,7 @@ export default function LandingPage() {
             <br />
           </div>
           <div style={{ fontSize: '35px', color: 'white', fontStyle: 'monospace' }}>
-            <p>full stack software developer with a passion for front end development.</p>
+            <p>full stack software developer with a passion for front end development</p>
           </div>
 
           <div className='tags'>

@@ -10,6 +10,7 @@ import About from './About'
 import Skills from './Skills'
 import Work from './Work'
 import ContactForm from './ContactForm'
+import './Styles.css'
 
 function useWindowSize() {
   const [windowSize, setWindowSize] = useState({
@@ -39,8 +40,13 @@ export default function Navbar() {
       <div>
         <nav>
           <div>
-            {size.width < 1310 ?
-              <div className='ui top fixed five item inverted menu'>
+            {size.width < 1400 ?
+              <div className='ui top fixed seven item inverted menu'>
+                <div className="item">
+                  <Link to='/'>
+                    <img className='ui tiny image' src='/myLogo.png' />
+                  </Link>
+                </div>
                 <div className="item">
                   <Link to='/'>
                     <i className="orange home icon" />
@@ -65,36 +71,96 @@ export default function Navbar() {
                   <Link to='/contact'>
                     <i className="orange envelope icon" />
                   </Link>
+                </div>
+                <div className="item">
+                  <a href='https://www.linkedin.com/in/soham-dutta-932550181/'>
+                    <i className="orange linkedin icon" />
+                  </a>
+                  <br />
+                  <a href='https://github.com/SohamDutta1216'>
+                    <i className="orange github icon" />
+                  </a>
+                  <br />
+                  <a href='https://www.facebook.com/soham.dutta.7'>
+                    <i className="orange facebook icon" />
+                  </a>
                 </div>
               </div>
               :
-              <div className='ui visible left vertical inverted sidebar labeled icon menu'>
+              <div className='ui thin visible left vertical inverted sidebar labeled icon menu'>
+                <div className='ui clearing inverted segment' />
+
                 <div className="item">
                   <Link to='/'>
-                    <i className="orange home icon" />
+                    <img className='ui tiny middle aligned image' src='/myLogo.png' />
                   </Link>
+                  <div className='ui clearing inverted segment' />
                 </div>
-                <div className="item">
-                  <Link to='/about'>
-                    <i className="orange user icon" />
-                  </Link>
-                </div>
-                <div className="item">
-                  <Link to='/skills'>
-                    <i className="orange chart bar icon" />
-                  </Link>
-                </div>
-                <div className="item">
-                  <Link to='/work'>
-                    <i className="orange folder icon" />
-                  </Link>
-                </div>
-                <div className="item">
-                  <Link to='/contact'>
-                    <i className="orange envelope icon" />
-                  </Link>
-                </div>
+                <div className='ui clearing inverted segment' />
+                <Link to='/'>
+                  <div class="ui inverted basic animated button" tabindex="0">
+                    <div class="hidden content" style={{ color: 'orange' }}>HOME</div>
+                    <div class="visible content">
+                      <i className="orange home icon" />
+                    </div>
+                  </div>
+                </Link>
+
+                <div className='ui clearing inverted segment' />
+                <Link to='/about'>
+                  <div class="ui inverted basic animated button" tabindex="0">
+                    <div class="hidden content" style={{ color: 'orange' }}>ABOUT</div>
+                    <div class="visible content">
+                      <i className="orange user icon" />
+                    </div>
+                  </div>
+                </Link>
+
+                <div className='ui clearing inverted segment' />
+                <Link to='/skills'>
+                  <div class="ui inverted basic animated button" tabindex="0">
+                    <div class="hidden content" style={{ color: 'orange' }}>SKILLS</div>
+                    <div class="visible content">
+                      <i className="orange chart bar icon" />
+                    </div>
+                  </div>
+                </Link>
+
+                <div className='ui clearing inverted segment' />
+                <Link to='/work'>
+                  <div class="ui inverted basic animated button" tabindex="0">
+                    <div class="hidden content" style={{ color: 'orange' }}>WORK</div>
+                    <div class="visible content">
+                      <i className="orange folder icon" />
+                    </div>
+                  </div>
+                </Link>
+
+                <div className='ui clearing inverted segment' />
+                <Link to='/contact'>
+                  <div class="ui inverted basic animated button" tabindex="0">
+                    <div class="hidden content" style={{ color: 'orange' }}>MESSAGE</div>
+                    <div class="visible content">
+                      <i className="orange envelope icon" />
+                    </div>
+                  </div>
+                </Link>
+
+                <div className='ui clearing inverted segment' />
+
+                <div className='ui clearing inverted segment' />
+
+                <a href='https://www.linkedin.com/in/soham-dutta-932550181/'>
+                  <i className="orange linkedin icon" />
+                </a>
+                <a href='https://github.com/SohamDutta1216'>
+                  <i className="orange github icon" />
+                </a>
+                <a href='https://www.facebook.com/soham.dutta.7'>
+                  <i className="orange facebook icon" />
+                </a>
               </div>
+
 
             }
 
@@ -108,7 +174,7 @@ export default function Navbar() {
           <Route path='/contact' component={ContactForm} />
         </Switch>
       </div>
-    </Router>
+    </Router >
 
   )
 }
