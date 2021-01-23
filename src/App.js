@@ -30,7 +30,7 @@ export default function App() {
           <Navbar />
         </div>
         :
-        <div style={{ marginLeft: '0', marginRight: '0' }}>
+        <div style={{ marginRight: '20px' }}>
           <Navbar />
         </div>
 
