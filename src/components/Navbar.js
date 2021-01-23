@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <Router>
-      <div>
+      <div style={{ paddingRight: '100px' }}>
         <nav>
           <div>
             {size.width < 1500 ?
