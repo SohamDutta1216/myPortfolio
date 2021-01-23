@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 
 export default function App() {
   return (
-    <div style={{ paddingLeft: '100px' }}>
+    <div style={{ paddingRight: '100px' }}>
       <Navbar />
     </div>
   )
