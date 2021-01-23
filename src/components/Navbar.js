@@ -41,7 +41,7 @@ export default function Navbar() {
         <nav>
           <div>
             {size.width < 1500 ?
-              <div className='ui top fixed seven item inverted menu'>
+              <div className='ui top fixed seven item inverted menu' style={{ marginRight: '200px' }}>
                 <div className="item">
                   <Link to='/'>
                     <img className='ui tiny image' src='/myLogo.png' />
