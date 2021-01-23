@@ -115,11 +115,7 @@ export default function Skills() {
           </div>
         </Fade>
       </div>
-      <div style={{ display: 'flex' }}>
-        <Skill
-          imagePath={imagePath}
-          setImage={setImage}
-        />
+      <div style={{ display: 'fixed' }}>
         <Skill
           imagePath={imagePath}
           setImage={setImage}
