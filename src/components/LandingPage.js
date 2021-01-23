@@ -14,7 +14,7 @@ export default function LandingPage() {
           </div>
 
           <div className='tags'>
-            <p>&lt; img src=/images/me.jpeg &gt;</p>
+            <p>&lt; img src=/images/me.jpg &gt;</p>
             <br />
           </div>
           <MovingComponent

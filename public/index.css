@@ -9,6 +9,7 @@ html, body {
   box-sizing:border-box;
   height: 100%;
   padding-top:60px;
+  margin-left: 300px;
 }
 .container {
   height: 100%;

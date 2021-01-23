@@ -40,7 +40,7 @@ export default function Navbar() {
       <div>
         <nav>
           <div>
-            {size.width < 1400 ?
+            {size.width < 1500 ?
               <div className='ui top fixed seven item inverted menu'>
                 <div className="item">
                   <Link to='/'>
