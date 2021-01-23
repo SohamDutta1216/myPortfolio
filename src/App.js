@@ -25,16 +25,7 @@ export default function App() {
   const size = useWindowSize()
   return (
     <div>
-      {size.width > 1400 ?
-        <div style={{ marginLeft: '20px', marginRight: '20px' }}>
-          <Navbar />
-        </div>
-        :
-        <div style={{ marginRight: '20px' }}>
-          <Navbar />
-        </div>
-
-      }
+      <Navbar />
 
     </div>
   )
