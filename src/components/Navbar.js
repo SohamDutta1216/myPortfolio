@@ -98,9 +98,9 @@ export default function Navbar() {
                 </div>
                 <div className='ui clearing inverted segment' />
                 <Link to='/'>
-                  <div class="ui inverted basic animated button" tabindex="0">
-                    <div class="hidden content" style={{ color: 'orange' }}>HOME</div>
-                    <div class="visible content">
+                  <div className="ui inverted basic animated button" tabIndex="0">
+                    <div className="hidden content" style={{ color: 'orange' }}>HOME</div>
+                    <div className="visible content">
                       <i className="orange home icon" />
                     </div>
                   </div>
@@ -108,9 +108,9 @@ export default function Navbar() {
 
                 <div className='ui clearing inverted segment' />
                 <Link to='/about'>
-                  <div class="ui inverted basic animated button" tabindex="0">
-                    <div class="hidden content" style={{ color: 'orange' }}>ABOUT</div>
-                    <div class="visible content">
+                  <div className="ui inverted basic animated button" tabIndex="0">
+                    <div className="hidden content" style={{ color: 'orange' }}>ABOUT</div>
+                    <div className="visible content">
                       <i className="orange user icon" />
                     </div>
                   </div>
@@ -118,9 +118,9 @@ export default function Navbar() {
 
                 <div className='ui clearing inverted segment' />
                 <Link to='/skills'>
-                  <div class="ui inverted basic animated button" tabindex="0">
-                    <div class="hidden content" style={{ color: 'orange' }}>SKILLS</div>
-                    <div class="visible content">
+                  <div className="ui inverted basic animated button" tabIndex="0">
+                    <div className="hidden content" style={{ color: 'orange' }}>SKILLS</div>
+                    <div className="visible content">
                       <i className="orange chart bar icon" />
                     </div>
                   </div>
@@ -128,9 +128,9 @@ export default function Navbar() {
 
                 <div className='ui clearing inverted segment' />
                 <Link to='/work'>
-                  <div class="ui inverted basic animated button" tabindex="0">
-                    <div class="hidden content" style={{ color: 'orange' }}>WORK</div>
-                    <div class="visible content">
+                  <div className="ui inverted basic animated button" tabIndex="0">
+                    <div className="hidden content" style={{ color: 'orange' }}>WORK</div>
+                    <div className="visible content">
                       <i className="orange folder icon" />
                     </div>
                   </div>
@@ -138,9 +138,9 @@ export default function Navbar() {
 
                 <div className='ui clearing inverted segment' />
                 <Link to='/contact'>
-                  <div class="ui inverted basic animated button" tabindex="0">
-                    <div class="hidden content" style={{ color: 'orange' }}>MESSAGE</div>
-                    <div class="visible content">
+                  <div className="ui inverted basic animated button" tabIndex="0">
+                    <div className="hidden content" style={{ color: 'orange' }}>MESSAGE</div>
+                    <div className="visible content">
                       <i className="orange envelope icon" />
                     </div>
                   </div>
