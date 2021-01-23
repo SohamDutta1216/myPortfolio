@@ -120,6 +120,10 @@ export default function Skills() {
           imagePath={imagePath}
           setImage={setImage}
         />
+        <Skill
+          imagePath={imagePath}
+          setImage={setImage}
+        />
       </div>
     </div>
   )
