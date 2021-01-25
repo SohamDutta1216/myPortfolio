@@ -4,6 +4,7 @@ import MovingComponent from 'react-moving-text'
 import Skill from './Skill';
 import './Styles.css'
 import Bounce from 'react-reveal/Bounce';
+import Sky from 'react-sky';
 
 function CreateState() {
   const [imagePath, setImage] = useState('./logoJS.png')
@@ -19,7 +20,21 @@ export default function Skills() {
 
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
+
+      <div style={{ margin: '0' }}>
+        <Sky
+          images={{
+            0: imagePath
+          }}
+          how={60}
+          time={40}
+          size={'80px'}
+          background={'#282828'}
+        />
+      </div>
+
       <div className="ui container">
+
         <Fade left>
           <div>
             <div className='tags'>
@@ -116,10 +131,7 @@ export default function Skills() {
         </Fade>
       </div>
       <div style={{ display: 'flex' }}>
-        <Skill
-          imagePath={imagePath}
-          setImage={setImage}
-        />
+
       </div>
     </div>
   )

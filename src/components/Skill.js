@@ -12,7 +12,7 @@ export default function Skill(props) {
         time={40}
         size={'80px'}
         background={'#282828'}
-      />
+      ></Sky>
     </div >
   );
 }
