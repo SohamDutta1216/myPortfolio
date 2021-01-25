@@ -114,7 +114,7 @@ export default function Work() {
                       </div>
                       <div className="or"></div>
                       <div className="ui button">
-                        <a href='https://theshoppies-2021.netlify.app/'>Deployed Link  <i class="large desktop middle aligned icon"></i> </a>
+                        <a href='https://tandem-apprentice.netlify.app/'>Deployed Link  <i class="large desktop middle aligned icon"></i> </a>
                       </div>
                     </div>
                   </div>
