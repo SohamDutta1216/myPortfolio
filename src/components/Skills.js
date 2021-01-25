@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
-import Skill from './Skill';
 import './Styles.css'
 import Bounce from 'react-reveal/Bounce';
 import Sky from 'react-sky';

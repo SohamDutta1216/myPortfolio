@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,7 +26,7 @@ export default function Navbar() {
 
               <div className="item">
                 <Link to='/'>
-                  <img className='ui tiny middle aligned image' src='/myLogo.png' />
+                  <img className='ui tiny middle aligned image' src='/myLogo.png' alt='logo' />
                 </Link>
               </div>
               <div className='item' >
@@ -95,11 +95,11 @@ export default function Navbar() {
           </div>
         </nav>
         <Switch>
-          <Route path='/' component={LandingPage} exact={true} />
-          <Route path='/about' component={About} />
-          <Route path='/skills' component={Skills} />
-          <Route path='/work' component={Work} />
-          <Route path='/contact' component={ContactForm} />
+          <Route exact path='/' component={LandingPage} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/skills' component={Skills} />
+          <Route exact path='/work' component={Work} />
+          <Route exact path='/contact' component={ContactForm} />
         </Switch>
       </div>
     </Router >
