@@ -2,6 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
+import Jump from 'react-reveal/Jump';
 
 export default function LandingPage() {
   return (
@@ -17,6 +18,11 @@ export default function LandingPage() {
             <p>&lt; img src=/images/me.jpg &gt;</p>
             <br />
           </div>
+          <div className='tags'>
+            <br />
+            <p>&lt;h6 &gt; hover over me &lt;/h6 &gt;</p>
+            <br />
+          </div>
           <MovingComponent
             type="spin"
             duration="2000ms"
@@ -29,6 +35,7 @@ export default function LandingPage() {
               <img alt='hidden' src="/avatar.png" className="visible content"></img>
               <img alt='visibe' src="/me.png" className="hidden content" ></img>
             </div>
+
           </MovingComponent>
 
           <div className='tags'>

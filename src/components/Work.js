@@ -66,7 +66,7 @@ export default function Work() {
                       </div>
                       <div className="or"></div>
                       <div className="ui button">
-                        <a href='sneakershopper.herokuapp.com'>Deployed Link  <i class="large desktop middle aligned icon"></i> </a>
+                        <a href='https://sneakershopper.herokuapp.com'>Deployed Link  <i class="large desktop middle aligned icon"></i> </a>
                       </div>
                     </div>
                   </div>
