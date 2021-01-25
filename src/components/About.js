@@ -20,7 +20,7 @@ export default function About() {
               <br />
               <MovingComponent type="typewriter"
                 dataText={[
-                  'Get to know me'
+                  'About me'
                 ]} />
               <br />
             </div>

@@ -47,7 +47,7 @@ export default function Skills() {
               <br />
               <MovingComponent type="typewriter"
                 dataText={[
-                  'Technical Skills'
+                  'Skills'
                 ]} />
               <br />
             </div>
