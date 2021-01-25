@@ -93,12 +93,13 @@ export default function Navbar() {
 
           </div>
         </nav>
-        <Route exact path='/' component={LandingPage} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/skills' component={Skills} />
-        <Route exact path='/work' component={Work} />
-        <Route exact path='/contact' component={ContactForm} />
-
+        <Switch>
+          <Route exact path='/' component={LandingPage} />
+          <Route path='/about' component={About} />
+          <Route path='/skills' component={Skills} />
+          <Route path='/work' component={Work} />
+          <Route path='/contact' component={ContactForm} />
+        </Switch>
       </BrowserRouter >
     </div>
 
