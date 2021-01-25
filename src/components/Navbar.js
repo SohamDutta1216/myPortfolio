@@ -87,9 +87,7 @@ export default function Navbar() {
                 <a href='https://github.com/SohamDutta1216'>
                   <i className="orange github icon" />
                 </a>
-                <a href='https://www.facebook.com/soham.dutta.7'>
-                  <i className="orange facebook icon" />
-                </a>
+
               </div>
             </div>
 
