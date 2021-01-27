@@ -3,33 +3,17 @@ import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import Bounce from 'react-reveal/Bounce';
-import Sky from 'react-sky';
 
-function CreateState() {
-  const [imagePath, setImage] = useState('./logoJS.png')
-  return { imagePath, setImage }
-}
 
 export default function Skills() {
-  const { imagePath, setImage } = CreateState()
 
-  const click = (event) => {
-    setImage(event.target.value)
-  }
+
+
 
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
 
       <div style={{ margin: '0' }}>
-        <Sky
-          images={{
-            0: imagePath
-          }}
-          how={60}
-          time={40}
-          size={'80px'}
-          background={'#282828'}
-        />
       </div>
 
       <div className="ui container">
@@ -64,51 +48,35 @@ export default function Skills() {
             <Bounce top cascade>
               <div>
                 <br />
-                <button
-                  onClick={click}
-                  className='ui inverted white button' value='./logoJS.png' >Javascript</button>
+                <p className='regText'>Javascript</p>
                 <br />
+                <p className='regText'>HTML5/CSS3</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoHTMLCSS.png' >HTML5/CSS3</button>
+                <p className='regText'>React/Redux</p>
                 <br />
+                <p className='regText'>Node.JS</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoReact.png' >React/Redux</button>
+                <p className='regText'>Express</p>
                 <br />
+                <p className='regText'>PostgresSQL</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoNode.png' >Node.JS</button>
+                <p className='regText'>Sequelize</p>
                 <br />
+                <p className='regText'>Jasmine</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoExpress.png' >Express</button>
+                <p className='regText'>Chart.JS</p>
                 <br />
+                <p className='regText'>Phaser3</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoPostgres.png' >PostgresSQL</button>
+                <p className='regText'>SocketIO</p>
                 <br />
+                <p className='regText'>Git</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoSequelize.png' >Sequelize</button>
+                <p className='regText'>Babel</p>
                 <br />
+                <p className='regText'>Webpack</p>
                 <br />
-                <button onClick={click} className='ui inverted white button' value='./logoJasmine.png' >Jasmine</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoChart.png' >Chart.JS</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoPhaser.png' >Phaser3</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoSocket.png' >SocketIO</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoGit.png' >Git</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoBabel.png' >Babel</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoWebpack.png' >Webpack</button>
-                <br />
-                <br />
-                <button onClick={click} className='ui inverted white button' value='./logoEnz.png' >Enzyme/Jest</button>
+                <p className='regText'>Enzyme/Jest</p>
                 <br />
               </div>
             </Bounce>
