@@ -2,7 +2,6 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
-import Jump from 'react-reveal/Jump';
 
 export default function LandingPage() {
   return (
