@@ -1,23 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import emailjs from 'emailjs-com';
 import Bounce from 'react-reveal/Bounce';
+import Loader from './Loader'
 
-
-function CreateState() {
+export default function ContactForm() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
   const [complete, setComplete] = useState(false)
-  return { name, setName, email, setEmail, subject, setSubject, message, setMessage, complete, setComplete }
-}
-
-export default function ContactForm() {
-  const { name, setName, email, setEmail, subject, setSubject, message, setMessage, complete, setComplete } = CreateState()
-
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 2000)
+  }, [])
   const resetForm = () => {
     setName('')
     setEmail('')
@@ -57,101 +55,111 @@ export default function ContactForm() {
     setTimeout(() => { setComplete(false) }, 4000)
   }
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
-      <div className="ui container">
-        <Fade left>
-          <div>
-            <div className='tags'>
-              <p>&lt; div &gt;</p>
-              <br />
-              <p>&lt; h1 &gt;</p>
-              <br />
-            </div>
 
-            <div className='typeText'>
-              <br />
-              <MovingComponent type="typewriter"
-                dataText={[
-                  'Contact Me'
-                ]} />
-              <br />
-            </div>
+    <div>
+      {loading === false ?
 
-            <div className='tags'>
-              <br />
-              <p>&lt; /h1 &gt;</p>
-              <br />
-            </div>
-
-            <div className='tags'>
-              <p>&lt; input &gt;</p>
-              <br />
-            </div>
-            <Bounce right cascade>
-              {complete === true ?
-                <div>
-                  <div className="ui orange message">
-                    <div className='header'>Message Sent</div>
-                  </div>
-                </div>
-                :
-                <div>
-
-                </div>
-              }
-              <div className='ui inverted compact segment'>
-                <form className='ui form attached fluid form'>
-                  <div className='two fields'>
-                    <div className='field'>
-                      <input type='text' placeholder='name' value={name} onChange={(e) => { setName(e.target.value) }} />
-                    </div>
-                    <div className='divider' />
-                    <div className='field'>
-                      <input type='email' placeholder='email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
-                    </div>
-                  </div>
-                  <div className='divider' />
-                  <div className='field'>
-                    <input type='text' placeholder='subject' value={subject} onChange={(e) => { setSubject(e.target.value) }} />
-                  </div>
-                  <div>
-                    <div className='field'>
-                      <textarea placeholder='message' rows='10' value={message} onChange={(e) => { setMessage(e.target.value) }} ></textarea>
-                    </div>
-                  </div>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div className="ui container">
+            <Fade left>
+              <div>
+                <div className='tags'>
+                  <p>&lt; div &gt;</p>
                   <br />
-                  {emailValidation(email) === true && contentValidation() === true ?
+                  <p>&lt; h1 &gt;</p>
+                  <br />
+                </div>
+
+                <div className='typeText'>
+                  <br />
+                  <MovingComponent type="typewriter"
+                    dataText={[
+                      'Contact Me'
+                    ]} />
+                  <br />
+                </div>
+
+                <div className='tags'>
+                  <br />
+                  <p>&lt; /h1 &gt;</p>
+                  <br />
+                </div>
+
+                <div className='tags'>
+                  <p>&lt; input &gt;</p>
+                  <br />
+                </div>
+                <Bounce right cascade>
+                  {complete === true ?
                     <div>
-                      <button className='ui right floated orange button' onClick={click}>
-                        SEND
-                </button>
+                      <div className="ui orange message">
+                        <div className='header'>Message Sent</div>
+                      </div>
                     </div>
                     :
                     <div>
-                      <button className='ui disabled right floated inverted button'>SEND</button>
+
                     </div>
                   }
+                  <div className='ui grey inverted compact segment'>
+                    <form className='ui form attached fluid form'>
+                      <div className='two fields'>
+                        <div className='field'>
+                          <input type='text' placeholder='name' value={name} onChange={(e) => { setName(e.target.value) }} />
+                        </div>
+                        <div className='divider' />
+                        <div className='field'>
+                          <input type='email' placeholder='email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                        </div>
+                      </div>
+                      <div className='divider' />
+                      <div className='field'>
+                        <input type='text' placeholder='subject' value={subject} onChange={(e) => { setSubject(e.target.value) }} />
+                      </div>
+                      <div>
+                        <div className='field'>
+                          <textarea placeholder='message' rows='10' value={message} onChange={(e) => { setMessage(e.target.value) }} ></textarea>
+                        </div>
+                      </div>
+                      <br />
+                      {emailValidation(email) === true && contentValidation() === true ?
+                        <div>
+                          <button className='ui right floated orange button' onClick={click}>
+                            SEND
+              </button>
+                        </div>
+                        :
+                        <div>
+                          <button className='ui disabled right floated inverted button'>SEND</button>
+                        </div>
+                      }
 
-                </form>
+                    </form>
+                  </div>
+                </Bounce>
+
+
+                <div className='tags'>
+                  <br />
+                  <p>&lt; /input &gt;</p>
+                  <br />
+                </div>
+
+                <div className='tags'>
+                  <br />
+                  <p>&lt; div &gt;</p>
+                  <br />
+                  <br />
+                </div>
               </div>
-            </Bounce>
-
-
-            <div className='tags'>
-              <br />
-              <p>&lt; /input &gt;</p>
-              <br />
-            </div>
-
-            <div className='tags'>
-              <br />
-              <p>&lt; div &gt;</p>
-              <br />
-              <br />
-            </div>
+            </Fade>
           </div>
-        </Fade>
-      </div>
+        </div>
+        :
+        <div>
+          <Loader />
+        </div>
+      }
     </div>
   )
 }

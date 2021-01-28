@@ -43,7 +43,8 @@ export default function Navbar() {
                   <div className="ui inverted basic animated button" tabIndex="0">
                     <div className="hidden content" style={{ color: 'orange' }}>ABOUT</div>
                     <div className="visible content">
-                      <i className="orange user icon" />
+                      <i
+                        className="orange user icon" />
                     </div>
                   </div>
                 </Link>
@@ -53,7 +54,9 @@ export default function Navbar() {
                   <div className="ui inverted basic animated button" tabIndex="0">
                     <div className="hidden content" style={{ color: 'orange' }}>SKILLS</div>
                     <div className="visible content">
-                      <i className="orange chart bar icon" />
+                      <i
+                        className="orange chart bar icon"
+                      />
                     </div>
                   </div>
                 </Link>
@@ -63,7 +66,8 @@ export default function Navbar() {
                   <div className="ui inverted basic animated button" tabIndex="0">
                     <div className="hidden content" style={{ color: 'orange' }}>WORK</div>
                     <div className="visible content">
-                      <i className="orange folder icon" />
+                      <i
+                        className="orange folder icon" />
                     </div>
                   </div>
                 </Link>
@@ -73,7 +77,8 @@ export default function Navbar() {
                   <div className="ui inverted basic animated button" tabIndex="0">
                     <div className="hidden content" style={{ color: 'orange' }}>MESSAGE</div>
                     <div className="visible content">
-                      <i className="orange envelope icon" />
+                      <i
+                        className="orange envelope icon" />
                     </div>
                   </div>
                 </Link>
