@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import Bounce from 'react-reveal/Bounce';
-
 
 export default function Skills() {
 
@@ -41,50 +40,156 @@ export default function Skills() {
               <p>&lt; /h1 &gt;</p>
               <br />
             </div>
-
             <div className='tags'>
-              <p>&lt; ul &gt;</p>
+              <p>&lt; div className="grid" &gt;</p>
             </div>
             <Bounce top cascade>
               <div>
                 <br />
-                <p className='regText'>Javascript</p>
-                <br />
-                <p className='regText'>HTML5/CSS3</p>
-                <br />
-                <p className='regText'>React/Redux</p>
-                <br />
-                <p className='regText'>Node.JS</p>
-                <br />
-                <p className='regText'>Express</p>
-                <br />
-                <p className='regText'>PostgresSQL</p>
-                <br />
-                <p className='regText'>Sequelize</p>
-                <br />
-                <p className='regText'>Jasmine</p>
-                <br />
-                <p className='regText'>Chart.JS</p>
-                <br />
-                <p className='regText'>Phaser3</p>
-                <br />
-                <p className='regText'>SocketIO</p>
-                <br />
-                <p className='regText'>Git</p>
-                <br />
-                <p className='regText'>Babel</p>
-                <br />
-                <p className='regText'>Webpack</p>
-                <br />
-                <p className='regText'>Enzyme/Jest</p>
-                <br />
+                <div className="ui five stackable cards">
+                  <div className="ui fluid card">
+                    <div className="image">
+                      <img src="./logoJS.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">JavaScript</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui fluid card">
+                    <div className="image">
+                      <img src="./logoHTMLCSS.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">HTML5/CSS3</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoReact.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">React/Redux</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoNode.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Node.JS</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoExpress.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Express</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoPostgres.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">PostgresSQL</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoSequelize.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Sequelize</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoJasmine.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Jasmine</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoChart.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Chart.JS</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoPhaser.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Phaser3</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoSocket.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">SocketIO</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoGit.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Git</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoBabel.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Babel</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoWebpack.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Webpack</p>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="ui centered card">
+                    <div className="image">
+                      <img src="./logoEnz.png" alt="logo" />
+                    </div>
+                    <div className="content">
+                      <p className="header">Enzyme/Jest</p>
+                    </div>
+                  </div>
+                  <br />
+                </div>
               </div>
             </Bounce>
 
 
             <div className='tags'>
               <br />
-              <p>&lt; /ul &gt;</p>
+              <p>&lt; /div &gt;</p>
               <br />
             </div>
 

@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "emailjs-com": "^2.6.4",
+    "lodash": "4.17.11",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-moving-text": "0.0.7",
@@ -14,7 +15,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-sky": "^1.1.0",
+    "react-spring": "^8.0.27",
     "react-toastify": "^6.2.0",
+    "resize-observer-polyfill": "1.5.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
