@@ -210,8 +210,12 @@ export default function Skills() {
           </div>
         </div>
         :
-        <div>
-          <Loader />
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div className="ui container">
+            <div>
+              <Loader />
+            </div>
+          </div>
         </div>
       }
     </div>

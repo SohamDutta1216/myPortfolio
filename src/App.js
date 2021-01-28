@@ -11,13 +11,15 @@ export default function App() {
       {loading === false ?
         <div>
           <Navbar
-            loading={loading}
-            setLoading={setLoading}
           />
         </div>
         :
-        <div>
-          <Loader />
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div className="ui container">
+            <div>
+              <Loader />
+            </div>
+          </div>
         </div>
       }
     </div>

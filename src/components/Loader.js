@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 export default function Loader() {
   return (
-    <div style={{ textAlign: 'end' }}>
+    <div>
       <Fade left>
         <div className="lds-facebook">
           <div>
