@@ -14,8 +14,8 @@ export default function App() {
           />
         </div>
         :
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          <div className="ui container">
+        <div>
+          <div>
             <div>
               <Loader />
             </div>
