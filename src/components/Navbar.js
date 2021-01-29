@@ -14,7 +14,6 @@ import './Styles.css'
 
 
 export default function Navbar() {
-
   return (
     <div>
       <BrowserRouter>

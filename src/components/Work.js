@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Loader from './Loader'
 import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
