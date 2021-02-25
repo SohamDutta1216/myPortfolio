@@ -5,10 +5,6 @@ import './Styles.css'
 import Bounce from 'react-reveal/Bounce';
 
 export default function Skills() {
-
-
-
-
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
 
