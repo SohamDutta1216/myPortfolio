@@ -4,6 +4,8 @@ import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import emailjs from 'emailjs-com';
 import Bounce from 'react-reveal/Bounce';
+import GoogleMaps from "simple-react-google-maps"
+
 export default function ContactForm() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -92,7 +94,7 @@ export default function ContactForm() {
 
                 </div>
               }
-              <div className='ui inverted compact segment'>
+              <div className='ui inverted  segment'>
                 <form className='ui form attached fluid form'>
                   <div className='two fields'>
                     <div className='field'>
@@ -126,7 +128,10 @@ export default function ContactForm() {
                   }
 
                 </form>
+                <br />
+                <br />
               </div>
+
             </Bounce>
 
 
@@ -135,6 +140,29 @@ export default function ContactForm() {
               <p>&lt; /input &gt;</p>
               <br />
             </div>
+
+            <div className='tags'>
+              <br />
+              <p>&lt; MyLocation &gt;</p>
+
+            </div>
+
+            <div class='ui inverted segment'>
+
+              <GoogleMaps
+                apiKey={process.env.REACT_APP_API_KEY}
+                style={{ height: "400px", width: "100%" }}
+                zoom={6}
+                center={{ lat: 40.728291, lng: -73.844612 }}
+                markers={{ lat: 40.728291, lng: -73.844612 }}
+              />
+            </div>
+            <div className='tags'>
+
+              <p>&lt; /MyLocation &gt;</p>
+              <br />
+            </div>
+
 
             <div className='tags'>
               <br />

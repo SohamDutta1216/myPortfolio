@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className='ui mini visible left vertical inverted sidebar labeled icon menu' >
 
               <div className="item">
-                <Link to='/'>
+                <Link to='/'> 
                   <img className='ui tiny middle aligned image' src='/myLogo.png' alt='logo' />
                 </Link>
               </div>
