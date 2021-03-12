@@ -52,6 +52,7 @@ export default function Work() {
                 imageUrl='/crypto.png'
                 gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
                 description='Full stack web application that uses the coingecko API to retrieve all available coins and lets users track their investments and portfolio'
+                tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Semantic UI , Google OAUTH , CoinGecko API '
               />
 
               <Project
@@ -59,13 +60,14 @@ export default function Work() {
                 imageUrl='/moment.png'
                 gitHubLink='https://github.com/SohamDutta1216/MomentsSocialPlatform'
                 description='Full stack social media platform'
-              />
+                tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Bootstrap , Google OAUTH' />
 
               <Project
                 projectName='Free Lance Project - LexMediaProjects'
                 imageUrl='/lex.png'
                 deployedLink='https://lexmediaprojects.com/'
                 description='Website comissioned for a small business'
+                tech='Wordpress , PHP , CSS'
               />
 
               <Project
@@ -73,6 +75,7 @@ export default function Work() {
                 imageUrl='/portfolio.png'
                 gitHubLink='https://github.com/SohamDutta1216/myPortfolio' deployedLink='https://sohamdutta.com'
                 description='My Personal Website'
+                tech='Javascript , React , EmailJS , Semantic UI , Google Maps API '
               />
 
               <Project
@@ -80,6 +83,7 @@ export default function Work() {
                 imageUrl='/shop.png'
                 gitHubLink='https://github.com/SohamDutta1216/theShoppies' deployedLink='https://theshoppies-2021.netlify.app/'
                 description='Shopify Front-End React Code challenge to build a movie search and nomination application using the OMDB API'
+                tech='Javascript, React, Semantic UI , OMDB API'
               />
 
               <Project
@@ -87,6 +91,7 @@ export default function Work() {
                 imageUrl='/tandem.png'
                 gitHubLink='https://github.com/SohamDutta1216/tandemApprentice' deployedLink='https://tandem-apprentice.netlify.app/'
                 description='Tandem Front-End React Code challenge that displays trivia questions with multiple-choice answers to select from'
+                tech='Javascript, React, Semantic UI , Enzyme/Jest'
               />
 
               <Project
@@ -94,6 +99,7 @@ export default function Work() {
                 imageUrl='/demon.png'
                 gitHubLink='https://github.com/2004-fsa-team-jiraiya/Gammiee' deployedLink='https://demon-dash.herokuapp.com/'
                 description='Online multiplayer game built with a team of 4, using Agile Methodologies'
+                tech='Javascript, Phaser3, SocketIO'
               />
 
               <Project
@@ -101,6 +107,8 @@ export default function Work() {
                 imageUrl='/sleep.png'
                 gitHubLink='https://github.com/Oura-ring-tag-visualizer/sleepVisualizer'
                 description='Web Application built in a pair that allows user to compare REM sleep with daily habits to find correlations and chart them'
+                tech='Javascript , React , Chart.JS , Express , Sequelize , Node ,
+                PostgreSQL'
               />
 
               <Project
@@ -108,6 +116,7 @@ export default function Work() {
                 imageUrl='/sneaker.png'
                 gitHubLink='https://github.com/Team-gs-Naruto/Grace-Shopper'
                 description='Full stack E-Commerce sneaker store built with a team of 4, using Agile Methodologies'
+                tech='React , Redux , Node , Express , Sequelize , Postgres , Mocha/Chai , Semantic UI , Bootstrap'
               />
 
               <Project
@@ -115,6 +124,7 @@ export default function Work() {
                 imageUrl='/guess.png'
                 gitHubLink='https://github.com/SohamDutta1216/guessing-game-final' deployedLink='https://sohamdutta1216.github.io/guessing-game-final//'
                 description='My first application ever built, a simple guessing game'
+                tech='Javascript , HTML , CSS , JQuery'
               />
 
             </div>
