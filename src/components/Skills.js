@@ -37,157 +37,69 @@ export default function Skills() {
               <br />
             </div>
             <div className='tags'>
-              <p>&lt; div className=grid" &gt;</p>
-            </div>
-            <Bounce top cascade>
-              <div>
-                <br />
-                <div className="ui five stackable cards">
-                  <div className="ui fluid card">
-                    <div className="image">
-                      <img src="./logoJS.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">JavaScript</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui fluid card">
-                    <div className="image">
-                      <img src="./logoHTMLCSS.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">HTML5/CSS3</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoReact.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">React/Redux</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoNode.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Node.JS</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoExpress.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Express</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoPostgres.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">PostgresSQL</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoSequelize.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Sequelize</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoJasmine.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Jasmine</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoChart.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Chart.JS</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoPhaser.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Phaser3</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoSocket.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">SocketIO</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoGit.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Git</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoBabel.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Babel</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoWebpack.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Webpack</p>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="ui centered card">
-                    <div className="image">
-                      <img src="./logoEnz.png" alt="logo" />
-                    </div>
-                    <div className="content">
-                      <p className="header">Enzyme/Jest</p>
-                    </div>
-                  </div>
-                  <br />
-                </div>
-              </div>
-            </Bounce>
 
-
-            <div className='tags'>
-              <br />
-              <p>&lt; /div &gt;</p>
-              <br />
             </div>
+
+            <h2 style={{ color: 'white' }}>Languages</h2>
+            <button class='ui blue button'> JavaScript</button>
+            <button class='ui blue button'> TypeScript</button>
+            <button class='ui blue button'> Elixir / Erlang</button>
+            <h2 style={{ color: 'white' }}>Front-End</h2>
+            <button class='ui blue button'> HTML / CSS</button>
+            <button class='ui blue button'>SCSS</button>
+            <button class='ui blue button'>React / Redux</button>
+            <button class='ui blue button'> Angular</button>
+            <button class='ui blue button'> Bootstrap </button>
+            <button class='ui blue button'> Material UI </button>
+            <button class='ui blue button'> Semantic UI </button>
+            <button class='ui blue button'> Chart JS </button>
+            <button class='ui blue button'> Phaser 3 </button>
+            <br /><br />
+            <button class='ui blue button'> Styled Components</button>
+
+            <h2 style={{ color: 'white' }}>Back-End</h2>
+            <button class='ui blue button'>Node</button>
+            <button class='ui blue button'>Express</button>
+            <button class='ui blue button'>PostgreSQL</button>
+            <button class='ui blue button'>MongoDB</button>
+            <button class='ui blue button'>Sequelize</button>
+            <button class='ui blue button'>Mongoose</button>
+            <button class='ui blue button'>SocketIO</button>
+
+            <h2 style={{ color: 'white' }}>Testing</h2>
+            <button class='ui blue button'>Jasmine</button>
+            <button class='ui blue button'>Mocha / Chai</button>
+            <button class='ui blue button'>Enzyme / Jest</button>
+
+            <h2 style={{ color: 'white' }}>Tools</h2>
+            <button class='ui blue button'>Git</button>
+            <button class='ui blue button'>Babel</button>
+            <button class='ui blue button'>Webpack</button>
+            <button class='ui blue button'>Netlify</button>
+            <button class='ui blue button'>Heroku</button>
+            <button class='ui blue button'>Postman</button>
+            <button class='ui blue button'>Postico</button>
+            <button class='ui blue button'>Trello</button>
+            <button class='ui blue button'>Asana</button>
+
+            <h2 style={{ color: 'white' }}>Conceptual</h2>
+            <button class='ui blue button'>Agile</button>
+            <button class='ui blue button'>Scrum</button>
+            <button class='ui blue button'>RDB schema design</button>
+            <button class='ui blue button'>SPA architecture</button>
+            <button class='ui blue button'>Responsive Design</button>
+
+            <h2 style={{ color: 'white' }}>Working Knowledge of</h2>
+            <button class='ui blue button'>AWS</button>
+            <button class='ui blue button'>GraphQL</button>
+            <button class='ui blue button'>Figma</button>
+            <button class='ui blue button'>SQL</button>
+            <button class='ui blue button'>React Native</button>
+
+            <br />
+
+            <br />
+
 
             <div className='tags'>
 
