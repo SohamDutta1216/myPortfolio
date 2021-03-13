@@ -47,85 +47,105 @@ export default function Work() {
 
             <div class='ui fluid container'>
 
-              <Project
-                projectName='CryptoCreeper'
-                imageUrl='/crypto.png'
-                gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
-                description='Full stack web application that uses the coingecko API to retrieve all available coins and lets users track their investments and portfolio'
-                tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Semantic UI , Google OAUTH , CoinGecko API '
-              />
+              <Fade left>
+                <Project
+                  projectName='CryptoCreeper'
+                  imageUrl='/crypto.png'
+                  gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
+                  description='Full stack web application that uses the coingecko API to retrieve all available coins and lets users track their investments and portfolio'
+                  tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Semantic UI , Google OAUTH , CoinGecko API '
+                />
+              </Fade>
 
-              <Project
-                projectName='Moments Social Platform'
-                imageUrl='/moment.png'
-                gitHubLink='https://github.com/SohamDutta1216/MomentsSocialPlatform'
-                description='Full stack social media platform'
-                tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Bootstrap , Google OAUTH' />
+              <Fade right>
+                <Project
+                  projectName='Moments Social Platform'
+                  imageUrl='/moment.png'
+                  gitHubLink='https://github.com/SohamDutta1216/MomentsSocialPlatform'
+                  description='Full stack social media platform'
+                  tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Bootstrap , Google OAUTH' />
+              </Fade>
 
-              <Project
-                projectName='Free Lance Project - LexMediaProjects'
-                imageUrl='/lex.png'
-                deployedLink='https://lexmediaprojects.com/'
-                description='Website comissioned for a small business'
-                tech='Wordpress , PHP , CSS'
-              />
+              <Fade left>
+                <Project
+                  projectName='Free Lance Project - LexMediaProjects'
+                  imageUrl='/lex.png'
+                  deployedLink='https://lexmediaprojects.com/'
+                  description='Website comissioned for a small business'
+                  tech='Wordpress , PHP , CSS'
+                />
+              </Fade>
 
-              <Project
-                projectName='This Site'
-                imageUrl='/portfolio.png'
-                gitHubLink='https://github.com/SohamDutta1216/myPortfolio' deployedLink='https://sohamdutta.com'
-                description='My Personal Website'
-                tech='Javascript , React , EmailJS , Semantic UI , Google Maps API '
-              />
+              <Fade right>
+                <Project
+                  projectName='This Site'
+                  imageUrl='/portfolio.png'
+                  gitHubLink='https://github.com/SohamDutta1216/myPortfolio' deployedLink='https://sohamdutta.com'
+                  description='My Personal Website'
+                  tech='Javascript , React , EmailJS , Semantic UI , Google Maps API '
+                />
+              </Fade>
 
-              <Project
-                projectName='Shopify Code Challenge'
-                imageUrl='/shop.png'
-                gitHubLink='https://github.com/SohamDutta1216/theShoppies' deployedLink='https://theshoppies-2021.netlify.app/'
-                description='Shopify Front-End React Code challenge to build a movie search and nomination application using the OMDB API'
-                tech='Javascript, React, Semantic UI , OMDB API'
-              />
+              <Fade left>
+                <Project
+                  projectName='Shopify Code Challenge'
+                  imageUrl='/shop.png'
+                  gitHubLink='https://github.com/SohamDutta1216/theShoppies' deployedLink='https://theshoppies-2021.netlify.app/'
+                  description='Shopify Front-End React Code challenge to build a movie search and nomination application using the OMDB API'
+                  tech='Javascript, React, Semantic UI , OMDB API'
+                />
+              </Fade>
 
-              <Project
-                projectName='Tandem Code Challenge'
-                imageUrl='/tandem.png'
-                gitHubLink='https://github.com/SohamDutta1216/tandemApprentice' deployedLink='https://tandem-apprentice.netlify.app/'
-                description='Tandem Front-End React Code challenge that displays trivia questions with multiple-choice answers to select from'
-                tech='Javascript, React, Semantic UI , Enzyme/Jest'
-              />
+              <Fade right>
+                <Project
+                  projectName='Tandem Code Challenge'
+                  imageUrl='/tandem.png'
+                  gitHubLink='https://github.com/SohamDutta1216/tandemApprentice' deployedLink='https://tandem-apprentice.netlify.app/'
+                  description='Tandem Front-End React Code challenge that displays trivia questions with multiple-choice answers to select from'
+                  tech='Javascript, React, Semantic UI , Enzyme/Jest'
+                />
+              </Fade>
 
-              <Project
-                projectName='Demon Dash'
-                imageUrl='/demon.png'
-                gitHubLink='https://github.com/2004-fsa-team-jiraiya/Gammiee' deployedLink='https://demon-dash.herokuapp.com/'
-                description='Online multiplayer game built with a team of 4, using Agile Methodologies'
-                tech='Javascript, Phaser3, SocketIO'
-              />
+              <Fade left>
+                <Project
+                  projectName='Demon Dash'
+                  imageUrl='/demon.png'
+                  gitHubLink='https://github.com/2004-fsa-team-jiraiya/Gammiee' deployedLink='https://demon-dash.herokuapp.com/'
+                  description='Online multiplayer game built with a team of 4, using Agile Methodologies'
+                  tech='Javascript, Phaser3, SocketIO'
+                />
+              </Fade>
 
-              <Project
-                projectName='Sleep Visualizer'
-                imageUrl='/sleep.png'
-                gitHubLink='https://github.com/Oura-ring-tag-visualizer/sleepVisualizer'
-                description='Web Application built in a pair that allows user to compare REM sleep with daily habits to find correlations and chart them'
-                tech='Javascript , React , Chart.JS , Express , Sequelize , Node ,
+              <Fade right>
+                <Project
+                  projectName='Sleep Visualizer'
+                  imageUrl='/sleep.png'
+                  gitHubLink='https://github.com/Oura-ring-tag-visualizer/sleepVisualizer'
+                  description='Web Application built in a pair that allows user to compare REM sleep with daily habits to find correlations and chart them'
+                  tech='Javascript , React , Chart.JS , Express , Sequelize , Node ,
                 PostgreSQL'
-              />
+                />
+              </Fade>
 
-              <Project
-                projectName='Sneaker Shopper'
-                imageUrl='/sneaker.png'
-                gitHubLink='https://github.com/Team-gs-Naruto/Grace-Shopper'
-                description='Full stack E-Commerce sneaker store built with a team of 4, using Agile Methodologies'
-                tech='React , Redux , Node , Express , Sequelize , Postgres , Mocha/Chai , Semantic UI , Bootstrap'
-              />
+              <Fade left>
+                <Project
+                  projectName='Sneaker Shopper'
+                  imageUrl='/sneaker.png'
+                  gitHubLink='https://github.com/Team-gs-Naruto/Grace-Shopper'
+                  description='Full stack E-Commerce sneaker store built with a team of 4, using Agile Methodologies'
+                  tech='React , Redux , Node , Express , Sequelize , Postgres , Mocha/Chai , Semantic UI , Bootstrap'
+                />
+              </Fade>
 
-              <Project
-                projectName='Guessing Game'
-                imageUrl='/guess.png'
-                gitHubLink='https://github.com/SohamDutta1216/guessing-game-final' deployedLink='https://sohamdutta1216.github.io/guessing-game-final//'
-                description='My first application ever built, a simple guessing game'
-                tech='Javascript , HTML , CSS , JQuery'
-              />
+              <Fade right>
+                <Project
+                  projectName='Guessing Game'
+                  imageUrl='/guess.png'
+                  gitHubLink='https://github.com/SohamDutta1216/guessing-game-final' deployedLink='https://sohamdutta1216.github.io/guessing-game-final//'
+                  description='My first application ever built, a simple guessing game'
+                  tech='Javascript , HTML , CSS , JQuery'
+                />
+              </Fade>
 
             </div>
 
