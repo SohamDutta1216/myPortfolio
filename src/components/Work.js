@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import MovingComponent from 'react-moving-text'
 import './Styles.css'
 import Project from './Project'
+import { Grid, Image, Divider } from 'semantic-ui-react'
 
 export default function Work() {
 
@@ -154,6 +155,55 @@ export default function Work() {
               <p>&lt; First Project  &gt;</p>
               <br />
             </div>
+
+            <div className='tag'>
+              <p>&lt; Publications &gt;</p>
+              <br />
+            </div>
+
+
+            <div class='ui inverted segment' style={{ marginTop: '50px' }}>
+              <Grid columns={2} stackable textAlign='center'>
+                <Divider vertical></Divider>
+                <Grid.Row verticalAlign='middle'>
+                  <Grid.Column>
+                    <div class='ui fluid image'>
+                      <img src='/adhd.png' />
+                    </div>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <h1 style={{ color: 'orange' }} class='ui header'>ADHD and Code</h1>
+                    <p>Personal experience with overcoming ADHD while learning to code, giving insight on bio-hacking techniques to optimize learning</p>
+
+                    <a class='ui orange button' href='https://medium.com/dev-genius/adhd-and-code-17c5e1d0ca1b' target='_blank'>Read</a>
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+            </div>
+
+
+            <div class='ui inverted segment' style={{ marginTop: '50px' }}>
+              <Grid columns={2} stackable textAlign='center'>
+                <Divider vertical></Divider>
+                <Grid.Row verticalAlign='middle'>
+                  <Grid.Column>
+                    <div class='ui fluid image'>
+                      <img src='/linked.png' />
+                    </div>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <h1 style={{ color: 'orange' }} class='ui header'>Linked Lists for Noobs</h1>
+                    <p>A low level explanation of linked-lists using creative and beginner friendly teaching methods</p>
+                    <a href='medium.com/dev-genius/linked-lists-for-absolute-dummies-2fa 10f752c' target='_blank'
+                      class='ui orange button'>Read</a>
+
+                  </Grid.Column>
+                </Grid.Row>
+              </Grid>
+            </div>
+
+
+
             <div className='tag'>
               <br />
               <p>&lt; /ul &gt;</p>
