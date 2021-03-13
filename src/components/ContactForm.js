@@ -152,6 +152,7 @@ export default function ContactForm() {
               <GoogleMaps
                 apiKey={process.env.REACT_APP_API_KEY}
                 style={{ height: "400px", width: "100%" }}
+                mapId='2e41081a8fe36c81'
                 zoom={6}
                 center={{ lat: 40.728291, lng: -73.844612 }}
                 markers={{ lat: 40.728291, lng: -73.844612 }}
