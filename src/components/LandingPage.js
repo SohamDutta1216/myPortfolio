@@ -14,12 +14,13 @@ export default function LandingPage() {
           </div>
 
           <div className='tags'>
-            <p>&lt; img src=/images/me.jpg &gt;</p>
+            <p>&lt;h6 &gt; hover over me &lt;/h6 &gt;</p>
+
             <br />
           </div>
           <div className='tags'>
             <br />
-            <p>&lt;h6 &gt; hover over me &lt;/h6 &gt;</p>
+            <p>&lt; img src=/images/me.jpg &gt;</p>
             <br />
           </div>
           <MovingComponent
@@ -73,7 +74,7 @@ export default function LandingPage() {
             <br />
           </div>
           <div style={{ fontSize: '35px', color: 'white', fontStyle: 'monospace' }}>
-            <p>full stack software developer</p>
+            <p>Full Stack Software Developer</p>
           </div>
 
           <div className='tags'>
