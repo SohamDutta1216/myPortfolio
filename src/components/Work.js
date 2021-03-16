@@ -52,7 +52,7 @@ export default function Work() {
                 <Project
                   projectName='CryptoCreeper'
                   imageUrl='/crypto.png'
-                  gitHubLink='https://github.com/SohamDutta1216/IdenticonGenerator/blob/master/README.md'
+                  gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
                   description='Full stack web application that uses the coingecko API to retrieve all available coins and lets users track their investments and portfolio'
                   tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Semantic UI , Google OAUTH , CoinGecko API '
                 />
@@ -61,8 +61,8 @@ export default function Work() {
               <Fade right>
                 <Project
                   projectName='Identicon Generator'
-                  imageUrl='/identicon.png'
-                  gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
+                  imageUrl='/identicon.png' imageUrl='/crypto.png'
+                  gitHubLink='https://github.com/SohamDutta1216/IdenticonGenerator/blob/master/README.md'
                   description='An identicon generator'
                   tech='Elixer, Erlang'
                 />
