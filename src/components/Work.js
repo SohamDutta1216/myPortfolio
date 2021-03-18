@@ -61,7 +61,7 @@ export default function Work() {
               <Fade right>
                 <Project
                   projectName='Identicon Generator'
-                  imageUrl='/identicon.png' imageUrl='/crypto.png'
+                  imageUrl='/identicon.png'
                   gitHubLink='https://github.com/SohamDutta1216/IdenticonGenerator/blob/master/README.md'
                   description='An identicon generator'
                   tech='Elixer, Erlang'
@@ -204,7 +204,7 @@ export default function Work() {
                   <Grid.Column>
                     <h1 style={{ color: 'orange' }} class='ui header'>Linked Lists for Noobs</h1>
                     <p>A low level explanation of linked-lists using creative and beginner friendly teaching methods</p>
-                    <a href='medium.com/dev-genius/linked-lists-for-absolute-dummies-2fa 10f752c' target='_blank'
+                    <a href='https://medium.com/dev-genius/linked-lists-for-absolute-dummies-2fa10f752c' target='_blank'
                       class='ui orange button'>Read</a>
 
                   </Grid.Column>
