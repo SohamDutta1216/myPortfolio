@@ -48,6 +48,17 @@ export default function Work() {
 
             <div class='ui fluid container'>
 
+              <Fade right>
+                <Project
+                  projectName='Cryptocurrency Data Feed'
+                  imageUrl='/crypto.png'
+                  gitHubLink='https://github.com/SohamDutta1216/feedclone'
+                  deployedLink='https://chainlinkfeedclone.netlify.app/'
+                  description='A dark mode clone of the https://data.chain.link home page made for a front end interview to stand out from other candidates. This application shows all cryptocurrencies along with a graph displaying their price changes over various time periods.'
+                  tech='Javascript , Chart.js, CoinGecko API'
+                />
+              </Fade>
+
               <Fade left>
                 <Project
                   projectName='CryptoCreeper'
