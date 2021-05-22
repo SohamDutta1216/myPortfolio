@@ -48,6 +48,17 @@ export default function Work() {
 
             <div class='ui fluid container'>
 
+              <Fade left>
+                <Project
+                  projectName='Movie Search Home Page'
+                  imageUrl='/moviesearch.png'
+                  gitHubLink='https://github.com/SohamDutta1216/The-Shoppies'
+                  deployedLink='https://theshoppieschallenge2021.netlify.app/'
+                  description='Responsive webpage that can search the OMDB api for movies, and allow the user to save their favourite films they feel should be up for nomination. Built in 3 days for a code challenge using custom CSS / Styled-components for animations and components. '
+                  tech='Javascript , React , styled-components , CSS , Axios'
+                />
+              </Fade>
+
               <Fade right>
                 <Project
                   projectName='Cryptocurrency Data Feed'
@@ -66,6 +77,16 @@ export default function Work() {
                   gitHubLink='https://github.com/SohamDutta1216/cryptoCreeper'
                   description='Full stack web application that uses the coingecko API to retrieve all available coins and lets users track their investments and portfolio'
                   tech='Javascript , React , Redux , Express , Node , Mongoose , MongoDB , Bcrypt , JSONwebtoken , Semantic UI , Google OAUTH , CoinGecko API '
+                />
+              </Fade>
+
+              <Fade right>
+                <Project
+                  projectName='Free Lance - High Energy Coding Homepage'
+                  imageUrl='/highenergy.png'
+                  deployedLink='https://adoring-liskov-4ac9a4.netlify.app/'
+                  description='Responsive home page for a childrens learning platform, built with React (Still in production)'
+                  tech='Javascript , React , Semantic UI , Google Maps'
                 />
               </Fade>
 
