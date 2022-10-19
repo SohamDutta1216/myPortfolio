@@ -12,7 +12,7 @@ export default function About() {
             <div className='tags'>
               <p>&lt; div &gt;</p>
               <br />
-              <p>&lt; h1 &gt;</p>
+              <p>&lt; h1 a &gt;</p>
               <br />
             </div>
 
